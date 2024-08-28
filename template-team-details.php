@@ -13,7 +13,7 @@ get_header(); ?>
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
         <a href="index.html" class="logo mb-40">
-            <img src="assets/images/logo/logo.svg" alt="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo.svg" alt="logo">
         </a>
         <div class="sidebar__search mb-30">
             <input type="text" placeholder="Search...">
@@ -56,15 +56,15 @@ get_header(); ?>
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo get_template_directory_uri(); ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Team Details</h2>
@@ -82,7 +82,7 @@ get_header(); ?>
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="team-single__image">
-                            <img src="assets/images/team/team-image1.jpg" alt="image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/team/team-image1.jpg" alt="image">
                             <div class="team-info">
                                 <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
                                 <a href="#0" class="active"><i class="fa-brands fa-instagram"></i></a>
