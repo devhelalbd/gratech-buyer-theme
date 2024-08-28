@@ -1,6 +1,26 @@
 <?php 
 
 
+function gratec_htheme(){
+
+     // text domain
+     load_theme_textdomain('gtdomain');
+
+     // Title
+     add_theme_support('title-tag');
+
+
+     // register nav menu
+     register_nav_menus(array(
+          'main-menu' => __('Main Menu', 'gtdomain'),
+          'footer-menu' => __('Footer Menu', 'gtdomain'),
+     ));
+
+}
+
+add_action('after_setup_theme','gratec_htheme');
+
+
 function gra_theme(){
 
      // Main Style
